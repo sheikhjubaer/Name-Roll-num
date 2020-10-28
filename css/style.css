@@ -1,0 +1,115 @@
+/*font-family: 'Playfair Display', serif;*/
+/*font-family: 'Ubuntu', sans-serif;*/
+
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+    font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+/*Header CSS Starts*/
+header {
+	padding: 25px 0;
+	/*border: 1px solid black;*/
+}
+.container {
+	width: 90%;
+	margin: 0 auto;
+	/*border: 1px solid red;*/
+	overflow: hidden;
+}
+.logo {
+	margin-top: 3px;
+	width: 13%;
+	float: left;
+	/*border: 1px solid red;*/
+}
+.logo img {
+	width: 100%
+}
+.menu {
+	width: 70%;
+	float: right;
+	/*border: 1px solid red;*/
+}
+.menu ul {
+	float: right;
+}
+.menu ul li {
+	list-style: none;
+	float: left;
+}
+.menu ul li a {
+	margin: 0 50px;
+	padding: 10px 0;
+	color: #626262;
+	text-decoration: none;
+	text-transform: uppercase;
+	display: inline-block;
+	transition: 0.3s;
+	border-bottom: 1px solid transparent;
+}
+.menu ul li:last-child a {
+	margin-right: 0;
+}
+.menu ul li a:hover {
+	border-bottom: 1px solid #626262;
+}
+/*Header CSS Ends*/
+
+/*Banner CSS Starts*/
+.banner {}
+.b-img {
+	width: 100%;
+}
+/*Banner CSS Ends*/
+
+/*Search CSS Starts*/
+.search {
+	margin-top: -4px;
+	margin-bottom: 40px;
+}
+.search .box {
+    text-align: center;
+    /*border: 1px solid red;*/
+    padding: 60px 0 70px 0;
+    background: #F0F0F0;
+}
+.search .box .top {}
+.search .box .top h2 {
+    font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: #333333;
+    /*border: 1px solid red;*/
+}
+.search .box .bottom {
+    /* border: 1px solid red; */
+    width: 32%;
+    margin: 0 auto;
+    margin-top: 70px;
+    border-bottom: 1px solid #333333;
+}
+.search .box .bottom input {
+	padding: 10px;
+	border: none;
+    background: transparent;
+    outline: none;
+    /*border: 1px solid red;*/
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+	font-weight: 400;
+    color: #626262;
+    width: 320px;
+}
+.search .box .bottom button {
+	border: none;
+    background: transparent;
+    outline: none; 
+    text-align: center;
+    cursor: pointer;
+    /*border: 1px solid red;*/
+}
+/*Search CSS Ends*/
